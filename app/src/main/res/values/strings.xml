@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MiRuta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="historial">HISTORIAL</string>
+    <string name="Direccion1">Direccion 1</string>
+    <string name="Direccion2">Direccion 2</string>
+    <string name="Direccion3">Direccion 3</string>
+    <string name="Direccion4">Direccion 4</string>
 </resources>
