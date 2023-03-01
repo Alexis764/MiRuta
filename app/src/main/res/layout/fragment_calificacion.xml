@@ -6,84 +6,89 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".calificacion">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:elevation="50dp">
-        <androidx.cardview.widget.CardView
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            app:cardCornerRadius="10dp">
-            <LinearLayout
+            android:orientation="vertical"
+            android:elevation="50dp">
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/titulo_calificacion"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textColor="@color/black">
-                </TextView>
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
-                    android:gravity="center">
-                    <ImageButton
-                        android:layout_width="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="50dp"
-                        android:background="@null"
-                        android:src="@drawable/calificacion_pesimo">
-                    </ImageButton>
-                    <ImageButton
-                        android:layout_width="wrap_content"
+                        android:text="@string/titulo_calificacion"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black">
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:src="@drawable/calificacion_normal">
-                    </ImageButton>
-                    <ImageButton
-                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center">
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="50dp"
+                            android:background="@null"
+                            android:src="@drawable/calificacion_pesimo">
+                        </ImageButton>
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:src="@drawable/calificacion_normal">
+                        </ImageButton>
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="53dp"
+                            android:background="@null"
+                            android:src="@drawable/calificacion_bien">
+                        </ImageButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="53dp"
-                        android:background="@null"
-                        android:src="@drawable/calificacion_bien">
-                    </ImageButton>
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dp"
+                            android:textColor="@color/black"
+                            android:text="@string/calificacion_servicio_pesimo">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="@string/calificacion_servicio_normal">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:textColor="@color/black"
+                            android:text="@string/calificacion_servicio_bueno">
+                        </TextView>
+                    </LinearLayout>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="30dp"
-                        android:textColor="@color/black"
-                        android:text="@string/calificacion_servicio_pesimo">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="@string/calificacion_servicio_normal">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="30dp"
-                        android:textColor="@color/black"
-                        android:text="@string/calificacion_servicio_bueno">
-                    </TextView>
-                </LinearLayout>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
 
 </FrameLayout>
