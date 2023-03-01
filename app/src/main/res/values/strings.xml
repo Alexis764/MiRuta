@@ -9,13 +9,11 @@
     <string name="Direccion4">Direccion 4</string>
     <string name="titulo_calificacion">¿Cómo te pareció el servicio?</string>
     <string name="calificacion_servicio_pesimo">Pesimo</string>
-<<<<<<< HEAD
     <string name="perfil">Perfil</string>
     <string name="texto1">Nombre</string>
     <string name="texto2">Correo</string>
     <string name="cerrar">Cerrar Sesión</string>
-=======
     <string name="calificacion_servicio_normal">Normal</string>
     <string name="calificacion_servicio_bueno">Bueno</string>
->>>>>>> 6a44695ed7d2cbe534050fd0df5edcbea8867531
+    <string name="nombre_proyecto">MiRuta</string>
 </resources>
