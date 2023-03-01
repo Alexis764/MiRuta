@@ -54,25 +54,10 @@
                         android:layout_height="match_parent"
                         android:text="@string/tituloappbar"
                         android:textColor="@color/white"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:textSize="25dp">
                     </TextView>
                 </LinearLayout>
-
-
-
-                <!--<LinearLayout
-                     android:layout_width="0dp"
-                     android:layout_height="match_parent"
-                     android:layout_weight="1">
-
-                     <ImageButton
-                         android:layout_width="match_parent"
-                         android:layout_height="match_parent"
-                         android:backgroundTint="#00FFFFFF"
-                         tools:src="@drawable/iconohistorial"
-                         android:layout_gravity="center">
-                     </ImageButton>
-                 </LinearLayout>-->
 
 
 
@@ -93,7 +78,7 @@
             android:layout_height="match_parent"
             android:id="@+id/fragmentHome"
             android:name="androidx.navigation.fragment.NavHostFragment"
-            app:navGraph="@navigation/navegacion"
+            app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true">
         </androidx.fragment.app.FragmentContainerView>-->
 
