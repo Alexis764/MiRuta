@@ -34,7 +34,8 @@ tools:context=".HistorialFragment">
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:background="@drawable/BordeHistorial"
-                android:layout_margin="5dp">
+                android:layout_marginBottom="5dp"
+                >
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -55,123 +56,24 @@ tools:context=".HistorialFragment">
                     android:layout_height="match_parent"
                     android:layout_weight="2">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/Direccion1"
-                        android:textColor="@color/white"
-                        android:gravity="left|center"
-                        >
-                    </TextView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/Direccion1"
+                            android:textColor="@color/white"
+                            android:gravity="left|center">
+                        </TextView>
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:background="@drawable/BordeHistorial">
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
 
-                    <ImageButton
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="#00FFFFFF"
-                        tools:src="@drawable/ic_baseline_cancel_24"
-                        android:layout_gravity="center">
-                    </ImageButton>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/Direccion1"
-                        android:textColor="@color/white"
-                        android:gravity="left|center"
-                        >
-                    </TextView>
-                </LinearLayout>
-
-            </LinearLayout>
-<LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="#00FFFFFF"
-                        tools:src="@drawable/ic_baseline_cancel_24"
-                        android:layout_gravity="center">
-                    </ImageButton>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/Direccion1"
-                        android:textColor="@color/white"
-                        android:gravity="left|center"
-                        >
-                    </TextView>
-                </LinearLayout>
-
-            </LinearLayout>
-<LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:backgroundTint="#00FFFFFF"
-                        tools:src="@drawable/ic_baseline_cancel_24"
-                        android:layout_gravity="center">
-                    </ImageButton>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/Direccion1"
-                        android:textColor="@color/white"
-                        android:gravity="left|center"
-                        >
-                    </TextView>
-                </LinearLayout>
-
-            </LinearLayout>
         </TableLayout>
     </LinearLayout>
 
