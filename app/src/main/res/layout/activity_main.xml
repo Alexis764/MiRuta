@@ -10,8 +10,6 @@
 
 
 
-
-
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,6 +37,7 @@
                         android:backgroundTint="#00FFFFFF"
                         tools:src="@drawable/iconomenuhamburguesa"
                         android:layout_gravity="center">
+                        tools:src="@drawable/iconomenuhamburguesa">
                     </ImageButton>
                 </LinearLayout>
 
