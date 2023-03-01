@@ -1,83 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".perfil">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/black">
-
-            <Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1">
-
-                        <ImageButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:backgroundTint="#00FFFFFF"
-                            tools:src="@drawable/iconomenuhamburguesa"
-                            android:layout_gravity="center">
-                        </ImageButton>
-                    </LinearLayout>
-
-
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="2">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="Mi Ruta"
-                            android:textColor="@color/white"
-                            android:gravity="center">
-                        </TextView>
-                    </LinearLayout>
-
-
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <ImageButton
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:backgroundTint="#00FFFFFF"
-                            tools:src="@drawable/iconohistorial"
-                            android:layout_gravity="center">
-                        </ImageButton>
-                    </LinearLayout>
-
-
-
-                </LinearLayout>
-            </Toolbar>
-
-        </com.google.android.material.appbar.AppBarLayout>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -178,8 +106,5 @@
 
 
         </androidx.cardview.widget.CardView>
-
-    </RelativeLayout>
-
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
