@@ -30,7 +30,9 @@
                         android:text="@string/titulo_calificacion"
                         android:textSize="20dp"
                         android:gravity="center"
-                        android:textColor="@color/black">
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/tiltneon"
+                        android:textStyle="bold">
                     </TextView>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -70,20 +72,23 @@
                             android:layout_height="wrap_content"
                             android:layout_marginRight="30dp"
                             android:textColor="@color/black"
-                            android:text="@string/calificacion_servicio_pesimo">
+                            android:text="@string/calificacion_servicio_pesimo"
+                            android:fontFamily="@font/tiltneon">
                         </TextView>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
-                            android:text="@string/calificacion_servicio_normal">
+                            android:text="@string/calificacion_servicio_normal"
+                            android:fontFamily="@font/tiltneon">
                         </TextView>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"
                             android:textColor="@color/black"
-                            android:text="@string/calificacion_servicio_bueno">
+                            android:text="@string/calificacion_servicio_bueno"
+                            android:fontFamily="@font/tiltneon">
                         </TextView>
                     </LinearLayout>
                 </LinearLayout>
