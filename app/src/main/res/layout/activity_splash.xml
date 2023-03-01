@@ -24,8 +24,9 @@
             android:gravity="center"
             android:textSize="40dp"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:text="@string/nombre_proyecto">
+            android:textStyle="bold|normal"
+            android:text="@string/nombre_proyecto"
+            android:fontFamily="@font/tiltneon">
         </TextView>
     </LinearLayout>
 
