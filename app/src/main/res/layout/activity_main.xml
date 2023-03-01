@@ -97,14 +97,15 @@
             app:defaultNavHost="true">
         </androidx.fragment.app.FragmentContainerView>-->
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/menuBtnBar"
-        app:menu="@menu/menu"
-        android:layout_alignParentBottom="true"
-        app:itemIconSize="40dp">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuBtnBar"
+            app:menu="@menu/menu"
+            android:layout_alignParentBottom="true"
+            app:itemIconSize="40dp"
+            android:background="@color/naranja">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     </RelativeLayout>
 
