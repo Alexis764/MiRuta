@@ -2,6 +2,11 @@
     <string name="app_name">MiRuta</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="historial">HISTORIAL</string>
+    <string name="Direccion1">Direccion 1</string>
+    <string name="Direccion2">Direccion 2</string>
+    <string name="Direccion3">Direccion 3</string>
+    <string name="Direccion4">Direccion 4</string>
     <string name="titulo_calificacion">¿Cómo te pareció el servicio?</string>
     <string name="calificacion_servicio_pesimo">Pesimo</string>
     <string name="calificacion_servicio_normal">Normal</string>
