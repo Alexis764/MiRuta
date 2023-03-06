@@ -25,6 +25,7 @@ tools:context=".HistorialFragment">
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/historial"
+                android:background="@color/purple_200"
                 android:textColor="@color/naranja"
                 android:textSize="30dp"
                 />
@@ -34,8 +35,7 @@ tools:context=".HistorialFragment">
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:background="@drawable/BordeHistorial"
-                android:layout_marginBottom="5dp"
-                >
+                android:layout_marginBottom="5dp">
 
                 <LinearLayout
                     android:layout_width="0dp"
