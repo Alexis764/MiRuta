@@ -33,7 +33,7 @@ tools:context=".HistorialFragment">
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:background="@drawable/BordeHistorial"
+                android:background="@drawable/bordehistorial"
                 android:layout_marginBottom="5dp"
                 >
 
