@@ -35,13 +35,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:backgroundTint="#00FFFFFF"
-<<<<<<< HEAD
                         android:layout_gravity="center"
                         tools:src="@drawable/iconomenuhamburguesa">
-=======
-                        tools:src="@drawable/iconomenuhamburguesa"
-                        android:layout_gravity="center">
->>>>>>> Raul
                     </ImageButton>
                 </LinearLayout>
 
@@ -76,15 +71,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-
-        <!--<androidx.fragment.app.FragmentContainerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/fragmentHome"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            app:navGraph="@navigation/nav_graph"
-            app:defaultNavHost="true">
-        </androidx.fragment.app.FragmentContainerView>-->
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"

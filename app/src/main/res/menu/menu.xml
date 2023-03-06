@@ -5,21 +5,28 @@
         android:id="fragmentInicio"
         android:enabled="true"
         android:icon="@drawable/iconoinicio"
-        android:title="INICIO">
+        android:title="">
     </item>
 
     <item
         android:id="fragmentHistorial"
         android:enabled="true"
         android:icon="@drawable/iconohistorial"
-        android:title="HISTORIAL">
+        android:title="">
     </item>
 
     <item
-        android:id="@+id/framentParadas"
+        android:id="@+id/fragmentParadas"
         android:enabled="true"
         android:icon="@drawable/iconoparada"
-        android:title="PARADAS">
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/fragmentRutas"
+        android:enabled="true"
+        android:icon="@drawable/iconorutas"
+        android:title="">
     </item>
 
 </menu>
