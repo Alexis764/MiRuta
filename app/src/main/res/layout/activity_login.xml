@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/naranja">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
