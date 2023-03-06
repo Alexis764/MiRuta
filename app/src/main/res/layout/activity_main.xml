@@ -35,8 +35,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:backgroundTint="#00FFFFFF"
+<<<<<<< HEAD
                         android:layout_gravity="center"
                         tools:src="@drawable/iconomenuhamburguesa">
+=======
+                        tools:src="@drawable/iconomenuhamburguesa"
+                        android:layout_gravity="center">
+>>>>>>> Raul
                     </ImageButton>
                 </LinearLayout>
 
