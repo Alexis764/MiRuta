@@ -25,7 +25,7 @@ tools:context=".HistorialFragment">
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/historial"
-                android:background="@color/purple_200"
+                android:background="@color/design_default_color_background"
                 android:textColor="@color/naranja"
                 android:textSize="30dp"
                 />
