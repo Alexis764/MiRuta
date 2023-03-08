@@ -2,31 +2,30 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="fragmentInicio"
+        android:id="fragmentInicioMapa"
         android:enabled="true"
-        android:icon="@drawable/iconoinicio"
-        android:title="">
-    </item>
-
-    <item
-        android:id="fragmentHistorial"
-        android:enabled="true"
-        android:icon="@drawable/iconohistorial"
-        android:title="">
-    </item>
-
-    <item
-        android:id="@+id/fragmentParadas"
-        android:enabled="true"
-        android:icon="@drawable/iconoparada"
-        android:title="">
+        android:icon="@drawable/iconomapa"
+        android:title="@string/tituloiconomapa">
     </item>
 
     <item
         android:id="@+id/fragmentRutas"
         android:enabled="true"
         android:icon="@drawable/iconorutas"
-        android:title="">
+        android:title="@string/tituloiconorutas">
     </item>
 
+    <item
+        android:id="@+id/fragmentParadas"
+        android:enabled="true"
+        android:icon="@drawable/iconoparada"
+        android:title="@string/tituloiconoparadas">
+    </item>
+
+    <item
+        android:id="fragmentHistorial"
+        android:enabled="true"
+        android:icon="@drawable/iconohistorial"
+        android:title="@string/tituloiconohistorial">
+    </item>
 </menu>

@@ -15,5 +15,18 @@
     <string name="calificacion_servicio_normal">Normal</string>
     <string name="calificacion_servicio_bueno">Bueno</string>
     <string name="nombre_proyecto">MiRuta</string>
+
+
+
+
+
+
+    <!--Strings de textos para el activity_main-->
     <string name="tituloappbar">Mi Ruta</string>
+    <string name="DescripcionBtnHamburguesa">Boton de menu hamurgesa</string>
+    <!--Strings de textos para el menu-->
+    <string name="tituloiconomapa">MAPA</string>
+    <string name="tituloiconorutas">RUTAS</string>
+    <string name="tituloiconoparadas">PARADAS</string>
+    <string name="tituloiconohistorial">HISTORIAL</string>
 </resources>

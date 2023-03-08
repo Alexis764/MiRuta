@@ -22,8 +22,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
 
                 <LinearLayout
@@ -33,13 +33,13 @@
 
                     <ImageButton
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="60dp"
                         android:backgroundTint="#00FFFFFF"
                         android:layout_gravity="center"
-                        tools:src="@drawable/iconomenuhamburguesa">
+                        tools:src="@drawable/iconomenuhamburguesa"
+                        android:contentDescription="@string/DescripcionBtnHamburguesa">
                     </ImageButton>
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -54,15 +54,13 @@
                         android:gravity="center"
                         android:text="@string/tituloappbar"
                         android:textColor="@color/white"
-                        android:textSize="25dp">
+                        android:textSize="25sp">
                     </TextView>
                 </LinearLayout>
 
 
-
             </LinearLayout>
         </Toolbar>
-
     </com.google.android.material.appbar.AppBarLayout>
 
 
@@ -72,7 +70,7 @@
         android:layout_height="wrap_content"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
+    <!--<com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/menuBtnBar"
@@ -80,7 +78,17 @@
             android:layout_alignParentBottom="true"
             app:itemIconSize="40dp"
             android:background="@color/naranja">
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+        <com.google.android.material.navigationrail.NavigationRailView
+            android:id="@+id/rielNavegacion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:menu="@menu/menu"
+            app:itemIconSize="40dp"
+            app:labelVisibilityMode="selected"
+            android:fontFamily="@font/tiltneon">
+        </com.google.android.material.navigationrail.NavigationRailView>
 
     </RelativeLayout>
 
