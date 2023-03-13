@@ -17,10 +17,6 @@
     <string name="nombre_proyecto">MiRuta</string>
 
 
-
-
-
-
     <!--Strings de textos para el activity_main-->
     <string name="tituloappbar">Mi Ruta</string>
     <string name="DescripcionBtnHamburguesa">Boton de menu hamurgesa</string>
@@ -28,5 +24,7 @@
     <string name="tituloiconomapa">MAPA</string>
     <string name="tituloiconorutas">RUTAS</string>
     <string name="tituloiconoparadas">PARADAS</string>
-    <string name="tituloiconohistorial">HISTORIAL</string>
+    <string name="tituloiconofavoritos">FAVORITOS</string>
+    <!--Strings de textos para el item de rutas-->
+    <string name="lugarinicioruta">Lugar inicio ruta</string>
 </resources>

@@ -25,7 +25,7 @@
     <item
         android:id="fragmentHistorial"
         android:enabled="true"
-        android:icon="@drawable/iconohistorial"
-        android:title="@string/tituloiconohistorial">
+        android:icon="@drawable/iconofavoritos"
+        android:title="@string/tituloiconofavoritos">
     </item>
 </menu>
